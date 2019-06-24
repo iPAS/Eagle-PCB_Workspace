@@ -1,0 +1,28 @@
+Partlist exported from /home/ipas/Desktop/Aj-Chaiporn/02 eagle project/SDI12 Interfacing Board/SDI12IB_v0.4.sch at 12/6/11 2:21 PM
+
+Part Value          Device          Package      Description                                                 
+C1   10uF           CPOL-USE2-5     E2-5         POLARIZED CAPACITOR, American symbol                        
+C2   10uF           CPOL-USE2-5     E2-5         POLARIZED CAPACITOR, American symbol                        
+C4   10uF           CPOL-USE2-5     E2-5         POLARIZED CAPACITOR, American symbol                        
+C5   10uF           CPOL-USE2-5     E2-5         POLARIZED CAPACITOR, American symbol                        
+C6   100pF          C-EUC1210       C1210        CAPACITOR, European symbol                                  
+C7   100pF          C-EU050-025X075 C050-025X075 CAPACITOR, European symbol                                  
+IC1  74AHCT1G126DBV 74AHCT1G126DBV  SOT23-5      Single Bus Buffer Gate With 3-State Outputs                 
+IC2  NCP1117DT33    NCP1117DT33     DPACK        Low drop-out positive fixed and adjustable voltage regulator
+IC4  NCP1117DT50    NCP1117DT50     DPACK        Low drop-out positive fixed and adjustable voltage regulator
+JP1  D_EN           JP1E            JP1          JUMPER                                                      
+JP3  DTE/DCE_TERM   PINHD-1X5       1X05         PIN HEADER                                                  
+JP4  +12_SEL        JP4Q            JP4Q         JUMPER                                                      
+JP5  DC/DC_SEL      JP5QE           JP5Q         JUMPER                                                      
+OK2  PC817          PC817           DIL04        SHARP OPTO COUPLER                                          
+OK3  PC817          PC817           DIL04        SHARP OPTO COUPLER                                          
+OK5  PC817          PC817           DIL04        SHARP OPTO COUPLER                                          
+R1                  R-US_0204/5     0204/5       RESISTOR, American symbol                                   
+R3                  R-US_0204/5     0204/5       RESISTOR, American symbol                                   
+R4                  R-US_0204/5     0204/5       RESISTOR, American symbol                                   
+R5                  R-US_0204/5     0204/5       RESISTOR, American symbol                                   
+R6                  R-US_0204/5     0204/5       RESISTOR, American symbol                                   
+R7                  R-US_0204/5     0204/5       RESISTOR, American symbol                                   
+V2   TME0503S       TME0503S        TME          DC/DC Converter TME Series 1 Watt                           
+X2   SDI12_TERM     AK300/3         AK300/3      CONNECTOR                                                   
+X3   BAT            AK300/2         AK300/2      CONNECTOR                                                   

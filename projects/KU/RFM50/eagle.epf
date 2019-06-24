@@ -1,0 +1,43 @@
+[Eagle]
+Version="06 06 00"
+Platform="Linux"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/24ghz_f_antenne.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Bluetooth Serial Module HC-05.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/con-j0011d21b-v3.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/inductor-fastron.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/ipas.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/jennic_5139_modules.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/microbuilder.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/tps769xx.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/v-reg-3.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Niccodes/Eagle-Libraries/holes.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Niccodes/Eagle-Libraries/pneumatic.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Niccodes/Eagle-Libraries/rectifier.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Niccodes/Eagle-Libraries/stepper.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Niccodes/Eagle-Libraries/triac.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Niccodes/Eagle-Libraries/valves2.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Niccodes/Eagle-Libraries/varistor.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Niccodes/Eagle-Libraries/Inductors/inductor-coilcraft-2.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Niccodes/Eagle-Libraries/Inductors/inductor-coilcraft.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Niccodes/Eagle-Libraries/Inductors/inductor-neosid.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Niccodes/Eagle-Libraries/Inductors/inductor-nkl.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Niccodes/Eagle-Libraries/Inductors/inductors-jwmiller.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Niccodes/Eagle-Libraries/Inductors/inductors.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/Niccodes/Eagle-Libraries/Inductors/ipc-7351-inductor.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/KU/Libraries/SparkFun/SparkFun-Eagle-Libraries/SparkFun-Connectors.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="0 25 1140 649"
+State=1
+Number=0
+
+[Desktop]
+Screen="1366 768"
+Window="Win_1"
