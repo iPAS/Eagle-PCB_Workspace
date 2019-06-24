@@ -1,5 +1,5 @@
 [submodule "libraries/Adafruit"]
-	path = libraries/Adafruit-Eagle-Library
+	path = libraries/Adafruit
 	url = https://github.com/adafruit/Adafruit-Eagle-Library.git
 [submodule "libraries/SparkFun-Eagle-Libraries"]
 	path = libraries/SparkFun-Eagle-Libraries
@@ -31,3 +31,15 @@
 [submodule "projects/Sparkfun-ESP32_LoRa_1Ch_Gateway"]
 	path = projects/Sparkfun-ESP32_LoRa_1Ch_Gateway
 	url = https://github.com/sparkfun/ESP32_LoRa_1Ch_Gateway.git
+[submodule "libraries/Seeed-Studio"]
+	path = libraries/Seeed-Studio
+	url = https://github.com/Seeed-Studio/OPL_Eagle_Library.git
+[submodule "libraries/SparkFun"]
+	path = libraries/SparkFun
+	url = https://github.com/sparkfun/SparkFun-Eagle-Libraries.git
+[submodule "libraries/Halfakop"]
+	path = libraries/Halfakop
+	url = https://github.com/halfakop/eagle-lbr.git
+[submodule "libraries/MacroYau"]
+	path = libraries/MacroYau
+	url = https://github.com/MacroYau/MacroYau-EAGLE-Libraries.git
