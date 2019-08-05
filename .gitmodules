@@ -43,3 +43,6 @@
 [submodule "libraries/MacroYau"]
 	path = libraries/MacroYau
 	url = https://github.com/MacroYau/MacroYau-EAGLE-Libraries.git
+[submodule "projects/RPi-CM3_Carrier_LiPo_by_aedancullen"]
+	path = projects/RPi-CM3_Carrier_LiPo_by_aedancullen
+	url = https://github.com/aedancullen/rpi-cm3-eagle-carrier-lipo.git
