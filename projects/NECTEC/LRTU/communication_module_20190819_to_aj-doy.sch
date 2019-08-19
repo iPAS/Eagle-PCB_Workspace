@@ -16194,7 +16194,7 @@ UART1 -- for AT-command
     RX: IO16
     TX: IO17
 UART2 -- for eMOD
-    RX: IO34
+    RX: IO34 (input only)
     TX: IO4</text>
 </plain>
 <instances>
@@ -17260,8 +17260,8 @@ UART2 -- for eMOD
 <segment>
 <pinref part="U2" gate="G$1" pin="RXD"/>
 <wire x1="129.54" y1="22.86" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
-<label x="127" y="15.494" size="1.778" layer="95" rot="MR0"/>
+<wire x1="129.54" y1="15.24" x2="144.78" y2="15.24" width="0.1524" layer="91"/>
+<label x="137.16" y="15.494" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO4"/>
@@ -17272,9 +17272,9 @@ UART2 -- for eMOD
 <net name="IM_TXD" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="TXD"/>
-<wire x1="132.08" y1="22.86" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="12.7" x2="124.46" y2="12.7" width="0.1524" layer="91"/>
-<label x="127" y="12.954" size="1.778" layer="95" rot="MR0"/>
+<wire x1="132.08" y1="22.86" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="17.78" x2="144.78" y2="17.78" width="0.1524" layer="91"/>
+<label x="137.16" y="18.034" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO34"/>
@@ -17290,9 +17290,9 @@ UART2 -- for eMOD
 <net name="IM_INT" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="P11"/>
-<wire x1="134.62" y1="22.86" x2="134.62" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="12.7" x2="139.7" y2="12.7" width="0.1524" layer="91"/>
-<label x="137.16" y="12.954" size="1.778" layer="95"/>
+<wire x1="134.62" y1="22.86" x2="134.62" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="20.32" x2="144.78" y2="20.32" width="0.1524" layer="91"/>
+<label x="137.16" y="20.574" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO35"/>

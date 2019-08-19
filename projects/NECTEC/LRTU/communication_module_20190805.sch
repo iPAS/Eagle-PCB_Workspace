@@ -16492,7 +16492,7 @@ UART1 -- for AT-command service
     RX: IO16
     TX: IO17
 UART2 -- for eMOD
-    RX: IO34
+    RX: IO34 (input only)
     TX: IO4</text>
 </plain>
 <instances>
@@ -16635,8 +16635,8 @@ UART2 -- for eMOD
 <attribute name="VALUE" x="248.92" y="151.384" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
-<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
+<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="1.27" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="1.27" layer="94"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
 <instance part="TP1" gate="G$1" x="76.2" y="152.4" smashed="yes" rot="R90">
