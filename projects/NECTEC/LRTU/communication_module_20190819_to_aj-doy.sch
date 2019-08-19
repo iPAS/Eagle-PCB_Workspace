@@ -16299,7 +16299,7 @@ UART2 -- for eMOD
 <attribute name="VALUE" x="130.302" y="144.78" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="1.778" layer="94"/>
+<attribute name="DRAWING_NAME" x="217.17" y="15.24" size="1.27" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="1.778" layer="94"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
