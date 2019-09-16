@@ -479,12 +479,13 @@ UsedLibrary="/home/ipas/Workspace/Eagle/libraries/Halfakop/displays/lcd.lbr"
 UsedLibrary="/home/ipas/Workspace/Eagle/libraries/Halfakop/displays/led-seg.lbr"
 UsedLibrary="/home/ipas/Workspace/Eagle/libraries/Halfakop/displays/nokia_lcd.lbr"
 UsedLibrary="/home/ipas/Workspace/Eagle/libraries/etc/rpi-zero.lbr"
+UsedLibrary="/home/ipas/Workspace/Eagle/libraries/etc/Wuerth_Elektronik_eiCan_Communication_Connectors_v2.2.lbr"
 
 [Win_1]
 Type="Board Editor"
 Number=2
-File="esp32_part_20190819.brd"
-View="-103.559 -210.943 103.991 99.2337"
+File="/home/ipas/Workspace/Eagle/projects/NECTEC/LRTU/communication_module_20190916_bus-revised.brd"
+View="-249.038 -277.575 -135.497 -169.677"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -531,15 +532,15 @@ Number=0
 [Win_3]
 Type="Schematic Editor"
 Number=1
-File="esp32_part_20190819.sch"
-View="-5.80736 -8.29656 269.759 396.709"
+File="/home/ipas/Workspace/Eagle/projects/NECTEC/LRTU/communication_module_20190916_bus-revised.sch"
+View="-5.73116 -4.10556 265.873 182.968"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
 ViaDiameters=" 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 0.95 1 1.05 1.1 1.15 1.2 1.3 0"
 ViaDrills=" 0.2 0.25 0.3 0.4 0.45 0.5 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 1 0.35"
 HoleDrills=" 0.2 0.25 0.3 0.4 0.45 0.5 0.55 0.6 0.65 0.7 0.75 0.8 0.85 0.9 1 0.35"
-TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27 1.778"
+TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778 1.27"
 PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
 PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
@@ -571,8 +572,8 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 96.9299 7.73472 282.44 135.508 2: -5.80736 -8.29656 269.759 396.709"
-Sheet="2"
+Views=" 1: -5.73116 -4.10556 265.873 182.968"
+Sheet="1"
 
 [Desktop]
 Screen="1920 1080"

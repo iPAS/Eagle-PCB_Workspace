@@ -16459,7 +16459,7 @@ Eable library Created by EmOne @ 2018</description>
 <sheets>
 <sheet>
 <plain>
-<text x="167.64" y="116.84" size="1.27" layer="91">ESP32 features three SPIs:
+<text x="45.72" y="106.68" size="1.27" layer="91">ESP32 features three SPIs:
   SPI, HSPI and VSPI,
   in slave and master modes. 
 Also known as SPI1, SPI2, SPI3.
@@ -16484,7 +16484,7 @@ In master mode;
     2) LoRaWAN, and
     3) Micro SDCard interfacings.</text>
 <text x="217.17" y="20.32" size="2.54" layer="94">Author: iPAS</text>
-<text x="45.72" y="99.06" size="1.27" layer="91">ESP32 features three UARTs:
+<text x="167.64" y="114.3" size="1.27" layer="91">ESP32 features three UARTs:
 UART0 -- for programming
     RX: IO3
     TX: IO1
@@ -16515,8 +16515,8 @@ UART2 -- for eMOD
 <instance part="SUPPLY21" gate="GND" x="231.14" y="55.88" smashed="yes">
 <attribute name="VALUE" x="231.14" y="53.34" size="1.27" layer="96"/>
 </instance>
-<instance part="P+1" gate="1" x="205.74" y="71.12" smashed="yes" rot="R90">
-<attribute name="VALUE" x="201.676" y="70.612" size="1.27" layer="96" rot="MR0"/>
+<instance part="P+1" gate="1" x="210.82" y="71.12" smashed="yes" rot="R90">
+<attribute name="VALUE" x="206.756" y="70.612" size="1.27" layer="96" rot="MR0"/>
 </instance>
 <instance part="U1" gate="G$1" x="109.22" y="134.62" smashed="yes">
 <attribute name="NAME" x="96.52" y="167.64" size="1.778" layer="95"/>
@@ -16608,12 +16608,12 @@ UART2 -- for eMOD
 <instance part="SUPPLY1" gate="GND" x="17.78" y="147.32" smashed="yes">
 <attribute name="VALUE" x="17.78" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="154.94" y="119.38" smashed="yes">
-<attribute name="NAME" x="155.448" y="115.824" size="1.778" layer="95"/>
-<attribute name="VALUE" x="155.448" y="113.665" size="1.778" layer="96"/>
+<instance part="LED1" gate="G$1" x="154.94" y="121.92" smashed="yes">
+<attribute name="NAME" x="155.448" y="118.364" size="1.778" layer="95"/>
+<attribute name="VALUE" x="155.448" y="116.205" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY14" gate="GND" x="154.94" y="111.76" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="154.94" y="109.22" size="1.778" layer="96" rot="MR0"/>
+<instance part="SUPPLY14" gate="GND" x="154.94" y="114.3" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="154.94" y="111.76" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="U2" gate="G$1" x="119.38" y="71.12" smashed="yes">
 <attribute name="NAME" x="147.32" y="30.48" size="1.778" layer="94"/>
@@ -16752,9 +16752,9 @@ UART2 -- for eMOD
 <attribute name="NAME" x="195.58" y="25.4" size="1.778" layer="95"/>
 <attribute name="VALUE" x="198.12" y="24.13" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="149.86" y="121.92" smashed="yes" rot="MR180">
-<attribute name="NAME" x="146.05" y="123.4186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="146.05" y="120.142" size="1.778" layer="96" rot="MR180"/>
+<instance part="R6" gate="G$1" x="149.86" y="124.46" smashed="yes" rot="MR180">
+<attribute name="NAME" x="146.05" y="125.9586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="146.05" y="122.682" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="JP5" gate="G$1" x="35.56" y="30.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.544" y="27.305" size="1.778" layer="95" font="vector"/>
@@ -16804,7 +16804,7 @@ UART2 -- for eMOD
 <busses>
 </busses>
 <nets>
-<net name="SPI1_MISO_1U" class="0">
+<net name="SPI_MISO_1U" class="0">
 <segment>
 <pinref part="JP11" gate="A" pin="4"/>
 <wire x1="223.52" y1="96.52" x2="233.68" y2="96.52" width="0.1524" layer="91"/>
@@ -16817,7 +16817,7 @@ UART2 -- for eMOD
 <label x="58.42" y="38.1" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="SPI1_MOSI_1U" class="0">
+<net name="SPI_MOSI_1U" class="0">
 <segment>
 <pinref part="JP11" gate="A" pin="6"/>
 <wire x1="233.68" y1="93.98" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
@@ -16830,7 +16830,7 @@ UART2 -- for eMOD
 <label x="43.18" y="38.1" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="SPI1_CE1_1U" class="0">
+<net name="SPI_CE1_1U" class="0">
 <segment>
 <pinref part="JP11" gate="A" pin="12"/>
 <wire x1="223.52" y1="86.36" x2="233.68" y2="86.36" width="0.1524" layer="91"/>
@@ -16885,14 +16885,14 @@ UART2 -- for eMOD
 <label x="154.94" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPI1_CE0_1U" class="0">
+<net name="SPI_CE0_1U" class="0">
 <segment>
 <pinref part="JP11" gate="A" pin="10"/>
 <wire x1="233.68" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
 <label x="233.68" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPI1_SCLK_1U" class="0">
+<net name="SPI_SCLK_1U" class="0">
 <segment>
 <pinref part="JP11" gate="A" pin="8"/>
 <wire x1="233.68" y1="91.44" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
@@ -16905,7 +16905,7 @@ UART2 -- for eMOD
 <label x="50.8" y="38.1" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="SCL0_MID/RTC/CAM" class="0">
+<net name="SCL_MID/RTC/CAM" class="0">
 <segment>
 <pinref part="JP11" gate="A" pin="7"/>
 <wire x1="205.74" y1="91.44" x2="215.9" y2="91.44" width="0.1524" layer="91"/>
@@ -16917,7 +16917,7 @@ UART2 -- for eMOD
 <label x="147.32" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SDA0_MID/RTC/CAM" class="0">
+<net name="SDA_MID/RTC/CAM" class="0">
 <segment>
 <pinref part="JP11" gate="A" pin="9"/>
 <wire x1="205.74" y1="88.9" x2="215.9" y2="88.9" width="0.1524" layer="91"/>
@@ -17075,7 +17075,7 @@ UART2 -- for eMOD
 <segment>
 <pinref part="JP11" gate="A" pin="23"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="215.9" y1="71.12" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="71.12" x2="210.82" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -17243,20 +17243,6 @@ UART2 -- for eMOD
 <segment>
 <pinref part="U3" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
-</segment>
-</net>
-<net name="NC16" class="0">
-<segment>
-<pinref part="JP11" gate="A" pin="16"/>
-<wire x1="223.52" y1="81.28" x2="231.14" y2="81.28" width="0.1524" layer="91"/>
-<label x="231.14" y="81.28" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="NC14" class="0">
-<segment>
-<pinref part="JP11" gate="A" pin="14"/>
-<wire x1="223.52" y1="83.82" x2="231.14" y2="83.82" width="0.1524" layer="91"/>
-<label x="231.14" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RFM_MOSI" class="0">
@@ -17674,7 +17660,7 @@ UART2 -- for eMOD
 <wire x1="160.02" y1="83.82" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="IM_RXD" class="0">
+<net name="IM_RX" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="RXD"/>
 <wire x1="129.54" y1="22.86" x2="129.54" y2="15.24" width="0.1524" layer="91"/>
@@ -17687,7 +17673,7 @@ UART2 -- for eMOD
 <label x="129.54" y="129.794" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IM_TXD" class="0">
+<net name="IM_TX" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="TXD"/>
 <wire x1="132.08" y1="22.86" x2="132.08" y2="12.7" width="0.1524" layer="91"/>
@@ -17767,8 +17753,9 @@ UART2 -- for eMOD
 <segment>
 <pinref part="U1" gate="G$1" pin="IO2"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="127" y1="121.92" x2="144.78" y2="121.92" width="0.1524" layer="91"/>
-<label x="129.54" y="122.174" size="1.778" layer="95"/>
+<wire x1="127" y1="121.92" x2="127" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="127" y1="124.46" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
+<label x="129.54" y="124.714" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SD_DAT2" class="0">
