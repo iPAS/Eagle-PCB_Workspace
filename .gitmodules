@@ -46,3 +46,12 @@
 [submodule "projects/RPi-CM3_Carrier_LiPo_by_aedancullen"]
 	path = projects/RPi-CM3_Carrier_LiPo_by_aedancullen
 	url = https://github.com/aedancullen/rpi-cm3-eagle-carrier-lipo.git
+[submodule "projects/ATM90E26_Featherwing_by_whatnick"]
+	path = projects/ATM90E26_Featherwing_by_whatnick
+	url = https://github.com/whatnick/ATM90E26_Featherwing.git
+[submodule "projects/ATM90E26_Breakout_by_whatnick"]
+	path = projects/ATM90E26_Breakout_by_whatnick
+	url = https://github.com/whatnick/ATM90E26_Breakout.git
+[submodule "projects/Olimex_ESP32-Gateway"]
+	path = projects/Olimex_ESP32-Gateway
+	url = https://github.com/OLIMEX/ESP32-GATEWAY.git
